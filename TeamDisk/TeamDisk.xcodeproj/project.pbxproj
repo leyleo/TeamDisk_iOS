@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1254EF168062880014D1F9 /* LEOAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1254EE168062880014D1F9 /* LEOAlbumPickerController.m */; };
+		AF1254F316806D180014D1F9 /* LEOAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1254F216806D180014D1F9 /* LEOAssetTablePicker.m */; };
+		AF33D80E166861E300BCFAE2 /* AudioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF33D80D166861E300BCFAE2 /* AudioButton.m */; };
+		AF4F51361647C529005B81A6 /* LEODetailDocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F51351647C529005B81A6 /* LEODetailDocViewController.m */; };
+		AF4F51391647D0C0005B81A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4F51381647D0C0005B81A6 /* QuickLook.framework */; };
+		AF5A9581164918FA0065CF85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A9580164918FA0065CF85 /* AVFoundation.framework */; };
+		AF5A958516491D050065CF85 /* LEOMusicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A958416491D050065CF85 /* LEOMusicItem.m */; };
+		AF60A8FC172677A900A4DB96 /* LEOWebDAVBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8E0172677A900A4DB96 /* LEOWebDAVBaseRequest.m */; };
+		AF60A8FD172677A900A4DB96 /* LEOWebDAVClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8E2172677A900A4DB96 /* LEOWebDAVClient.m */; };
+		AF60A8FE172677A900A4DB96 /* LEOWebDAVCopyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8E4172677A900A4DB96 /* LEOWebDAVCopyRequest.m */; };
+		AF60A8FF172677A900A4DB96 /* LEOWebDAVDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8E7172677A900A4DB96 /* LEOWebDAVDeleteRequest.m */; };
+		AF60A900172677A900A4DB96 /* LEOWebDAVDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8E9172677A900A4DB96 /* LEOWebDAVDownloadRequest.m */; };
+		AF60A901172677A900A4DB96 /* LEOWebDAVItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8EB172677A900A4DB96 /* LEOWebDAVItem.m */; };
+		AF60A902172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8ED172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.m */; };
+		AF60A903172677A900A4DB96 /* LEOWebDAVMoveRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8EF172677A900A4DB96 /* LEOWebDAVMoveRequest.m */; };
+		AF60A904172677A900A4DB96 /* LEOWebDAVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8F1172677A900A4DB96 /* LEOWebDAVParser.m */; };
+		AF60A905172677A900A4DB96 /* LEOWebDAVPropertyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8F3172677A900A4DB96 /* LEOWebDAVPropertyRequest.m */; };
+		AF60A906172677A900A4DB96 /* LEOWebDAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8F5172677A900A4DB96 /* LEOWebDAVRequest.m */; };
+		AF60A907172677A900A4DB96 /* LEOWebDAVUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8F7172677A900A4DB96 /* LEOWebDAVUploadRequest.m */; };
+		AF60A908172677A900A4DB96 /* LEOWebDAVURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8F9172677A900A4DB96 /* LEOWebDAVURL.m */; };
+		AF60A909172677A900A4DB96 /* LEOWebDAVUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60A8FB172677A900A4DB96 /* LEOWebDAVUtility.m */; };
+		AF7244E116390C930020086C /* LEOServerListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7244E016390C930020086C /* LEOServerListCell.m */; };
+		AF7244E9163922BF0020086C /* LEOServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7244E8163922BF0020086C /* LEOServerInfo.m */; };
+		AF7244EC16392F970020086C /* LEOUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7244EB16392F970020086C /* LEOUtility.m */; };
+		AF7244F6163947D20020086C /* LEOUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7244F5163947D20020086C /* LEOUploadViewController.m */; };
+		AF7244F916394CB30020086C /* LEOMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7244F816394CB30020086C /* LEOMusicViewController.m */; };
+		AF749D74163E2A3F0006129C /* LEONewServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF749D73163E2A3F0006129C /* LEONewServerViewController.m */; };
+		AF749D80163E80A30006129C /* LEODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF749D7F163E80A30006129C /* LEODetailViewController.m */; };
+		AF749D83163E838C0006129C /* LEOContentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF749D82163E838C0006129C /* LEOContentListCell.m */; };
+		AF7900CE165F58170035EBE4 /* LEODetailMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900CD165F58170035EBE4 /* LEODetailMusicViewController.m */; };
+		AF7E97A2164BBB2800C865AC /* LEOUploadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7E97A1164BBB2800C865AC /* LEOUploadInfo.m */; };
+		AF80C9A8166C575900E322C8 /* LEOResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF80C9A7166C575900E322C8 /* LEOResultView.m */; };
+		AF853E4D16436B75004ED6C8 /* res in Resources */ = {isa = PBXBuildFile; fileRef = AF853E4C16436B75004ED6C8 /* res */; };
+		AF856AB7164A129000BFDDFF /* LEOUploadListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856AB6164A129000BFDDFF /* LEOUploadListCell.m */; };
+		AF856ABB164A31E700BFDDFF /* LEOUploadView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856ABA164A31E700BFDDFF /* LEOUploadView.m */; };
+		AF856ABE164A40A100BFDDFF /* LEOUploadToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856ABD164A40A100BFDDFF /* LEOUploadToolBar.m */; };
+		AF856ADA164A601000BFDDFF /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856ACC164A601000BFDDFF /* ELCAsset.m */; };
+		AF856ADB164A601000BFDDFF /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856ACE164A601000BFDDFF /* ELCAssetCell.m */; };
+		AF856ADC164A601000BFDDFF /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF856ACF164A601000BFDDFF /* ELCAssetPicker.xib */; };
+		AF856ADD164A601000BFDDFF /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856AD1164A601000BFDDFF /* ELCAssetTablePicker.m */; };
+		AF856ADE164A601000BFDDFF /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF856AD2164A601000BFDDFF /* ELCAssetTablePicker.xib */; };
+		AF856ADF164A601000BFDDFF /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856AD4164A601000BFDDFF /* ELCImagePickerController.m */; };
+		AF856AE0164A601000BFDDFF /* ELCImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF856AD5164A601000BFDDFF /* ELCImagePickerController.xib */; };
+		AF856AE1164A601000BFDDFF /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = AF856AD6164A601000BFDDFF /* Overlay.png */; };
+		AF856AE2164A601000BFDDFF /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF856AD7164A601000BFDDFF /* Overlay@2x.png */; };
+		AF856AE4164A60AE00BFDDFF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF856AE3164A60AE00BFDDFF /* AssetsLibrary.framework */; };
+		AF858239163A880300DD4A1B /* LEOMusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF858238163A880300DD4A1B /* LEOMusicListCell.m */; };
+		AF85823C163A911E00DD4A1B /* LEOEditToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85823B163A911E00DD4A1B /* LEOEditToolBar.m */; };
+		AF909995165E1724005235AF /* LEOSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF909994165E1723005235AF /* LEOSwitchView.m */; };
+		AF91656A1648C0CE00918E3F /* LEOMusicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9165691648C0CE00918E3F /* LEOMusicSlider.m */; };
+		AF91656D1648E49D00918E3F /* LEOMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91656C1648E49D00918E3F /* LEOMusicView.m */; };
+		AF93C37D16636C010037A0DC /* LEONetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF93C37C16636C010037A0DC /* LEONetworkController.m */; };
+		AF952B971652384A00533BD8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF952B961652384A00533BD8 /* MBProgressHUD.m */; };
+		AFA0B79F165B557800889383 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA0B7A1165B557800889383 /* Localizable.strings */; };
+		AFA3A911164218F9005EEB18 /* LEOContentTypeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3A910164218F9005EEB18 /* LEOContentTypeConvert.m */; };
+		AFABEA081635498700EDCCF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFABEA071635498700EDCCF3 /* UIKit.framework */; };
+		AFABEA0A1635498700EDCCF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFABEA091635498700EDCCF3 /* Foundation.framework */; };
+		AFABEA0C1635498700EDCCF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFABEA0B1635498700EDCCF3 /* CoreGraphics.framework */; };
+		AFABEA121635498700EDCCF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFABEA101635498700EDCCF3 /* InfoPlist.strings */; };
+		AFABEA141635498700EDCCF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFABEA131635498700EDCCF3 /* main.m */; };
+		AFABEA181635498700EDCCF3 /* LEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFABEA171635498700EDCCF3 /* LEOAppDelegate.m */; };
+		AFCCFC791650A72500B68939 /* LEOListExtendView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCCFC781650A72500B68939 /* LEOListExtendView.m */; };
+		AFCCFC991651090100B68939 /* LEORenameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCCFC981651090000B68939 /* LEORenameViewController.m */; };
+		AFCD00B016709A4F00750BFB /* LEOCameraPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD00AF16709A4F00750BFB /* LEOCameraPickerController.m */; };
+		AFD3FAB116549C7000A0BEDD /* LEOThumbnailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD3FAB016549C7000A0BEDD /* LEOThumbnailItem.m */; };
+		AFD9426C16476A3700025AA4 /* LEODetailVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD9426B16476A3600025AA4 /* LEODetailVideoViewController.m */; };
+		AFD9427016479B8E00025AA4 /* LEOVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD9426F16479B8E00025AA4 /* LEOVideoViewController.m */; };
+		AFD9427216479E4600025AA4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD9427116479E4600025AA4 /* MediaPlayer.framework */; };
+		AFE344D316533F900026B089 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE344D216533F900026B089 /* EGORefreshTableHeaderView.m */; };
+		AFE344D6165343ED0026B089 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE344D5165343ED0026B089 /* QuartzCore.framework */; };
+		AFE3451316537B9C0026B089 /* KTPhotoBrowserGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3450716537B9C0026B089 /* KTPhotoBrowserGlobal.m */; };
+		AFE3451416537B9C0026B089 /* KTPhotoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3450916537B9C0026B089 /* KTPhotoScrollViewController.m */; };
+		AFE3451516537B9C0026B089 /* KTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3450B16537B9C0026B089 /* KTPhotoView.m */; };
+		AFE3451B16537F1A0026B089 /* LEODoubleModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3451A16537F190026B089 /* LEODoubleModeViewController.m */; };
+		AFE3451E165382910026B089 /* LEOImageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3451D165382910026B089 /* LEOImageDataSource.m */; };
+		AFE345241653A5890026B089 /* LEOImageThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE345231653A5890026B089 /* LEOImageThumbnailCell.m */; };
+		AFE4F6BC164B5B4500E82A8D /* LEOChoosePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE4F6BB164B5B4500E82A8D /* LEOChoosePathViewController.m */; };
+		AFE4F6C0164B95B500E82A8D /* LEONewFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE4F6BF164B95B400E82A8D /* LEONewFolderViewController.m */; };
+		AFE8E7751682AEFE00FFC55E /* LEOChooseCopyPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8E7741682AEFE00FFC55E /* LEOChooseCopyPathViewController.m */; };
+		AFE9BC30166F2E630098A306 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE9BC2F166F2E630098A306 /* icon.png */; };
+		AFE9BC32166F2E680098A306 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE9BC31166F2E680098A306 /* icon@2x.png */; };
+		AFE9BC34166F2E720098A306 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE9BC33166F2E720098A306 /* Default.png */; };
+		AFE9BC36166F2E830098A306 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE9BC35166F2E830098A306 /* Default@2x.png */; };
+		AFE9BC38166F2EA20098A306 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE9BC37166F2EA20098A306 /* Default-568h@2x.png */; };
+		AFEAD4C3163643FB00DB48A1 /* LEOServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD4C2163643FB00DB48A1 /* LEOServerListViewController.m */; };
+		AFEAD4E916367AF800DB48A1 /* LEOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD4E816367AF800DB48A1 /* LEOSettingsViewController.m */; };
+		AFEAD4F0163681F800DB48A1 /* LEOTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD4EF163681F800DB48A1 /* LEOTabBarViewController.m */; };
+		AFEAD4FB1636AA3200DB48A1 /* LEOTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD4FA1636AA3200DB48A1 /* LEOTabBar.m */; };
+		AFFA98A51675AE1200D9AC5B /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA98A41675AE1200D9AC5B /* SFHFKeychainUtils.m */; };
+		AFFA98A81675B36400D9AC5B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFA98A71675B36400D9AC5B /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1254ED168062880014D1F9 /* LEOAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOAlbumPickerController.h; sourceTree = "<group>"; };
+		AF1254EE168062880014D1F9 /* LEOAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOAlbumPickerController.m; sourceTree = "<group>"; };
+		AF1254F116806D180014D1F9 /* LEOAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOAssetTablePicker.h; sourceTree = "<group>"; };
+		AF1254F216806D180014D1F9 /* LEOAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOAssetTablePicker.m; sourceTree = "<group>"; };
+		AF2858EF1637D951006521BF /* LEODefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODefines.h; path = classes/Utilities/LEODefines.h; sourceTree = "<group>"; };
+		AF33D80C166861E300BCFAE2 /* AudioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioButton.h; path = classes/View/AudioButton.h; sourceTree = "<group>"; };
+		AF33D80D166861E300BCFAE2 /* AudioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioButton.m; path = classes/View/AudioButton.m; sourceTree = "<group>"; };
+		AF4F51341647C529005B81A6 /* LEODetailDocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODetailDocViewController.h; path = classes/Controller/LEODetailDocViewController.h; sourceTree = "<group>"; };
+		AF4F51351647C529005B81A6 /* LEODetailDocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEODetailDocViewController.m; path = classes/Controller/LEODetailDocViewController.m; sourceTree = "<group>"; };
+		AF4F51381647D0C0005B81A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AF5A9580164918FA0065CF85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF5A958316491D050065CF85 /* LEOMusicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMusicItem.h; path = classes/Model/LEOMusicItem.h; sourceTree = "<group>"; };
+		AF5A958416491D050065CF85 /* LEOMusicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMusicItem.m; path = classes/Model/LEOMusicItem.m; sourceTree = "<group>"; };
+		AF60A8DF172677A900A4DB96 /* LEOWebDAVBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVBaseRequest.h; sourceTree = "<group>"; };
+		AF60A8E0172677A900A4DB96 /* LEOWebDAVBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVBaseRequest.m; sourceTree = "<group>"; };
+		AF60A8E1172677A900A4DB96 /* LEOWebDAVClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVClient.h; sourceTree = "<group>"; };
+		AF60A8E2172677A900A4DB96 /* LEOWebDAVClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVClient.m; sourceTree = "<group>"; };
+		AF60A8E3172677A900A4DB96 /* LEOWebDAVCopyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVCopyRequest.h; sourceTree = "<group>"; };
+		AF60A8E4172677A900A4DB96 /* LEOWebDAVCopyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVCopyRequest.m; sourceTree = "<group>"; };
+		AF60A8E5172677A900A4DB96 /* LEOWebDAVDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVDefines.h; sourceTree = "<group>"; };
+		AF60A8E6172677A900A4DB96 /* LEOWebDAVDeleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVDeleteRequest.h; sourceTree = "<group>"; };
+		AF60A8E7172677A900A4DB96 /* LEOWebDAVDeleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVDeleteRequest.m; sourceTree = "<group>"; };
+		AF60A8E8172677A900A4DB96 /* LEOWebDAVDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVDownloadRequest.h; sourceTree = "<group>"; };
+		AF60A8E9172677A900A4DB96 /* LEOWebDAVDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVDownloadRequest.m; sourceTree = "<group>"; };
+		AF60A8EA172677A900A4DB96 /* LEOWebDAVItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVItem.h; sourceTree = "<group>"; };
+		AF60A8EB172677A900A4DB96 /* LEOWebDAVItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVItem.m; sourceTree = "<group>"; };
+		AF60A8EC172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVMakeCollectionRequest.h; sourceTree = "<group>"; };
+		AF60A8ED172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVMakeCollectionRequest.m; sourceTree = "<group>"; };
+		AF60A8EE172677A900A4DB96 /* LEOWebDAVMoveRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVMoveRequest.h; sourceTree = "<group>"; };
+		AF60A8EF172677A900A4DB96 /* LEOWebDAVMoveRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVMoveRequest.m; sourceTree = "<group>"; };
+		AF60A8F0172677A900A4DB96 /* LEOWebDAVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVParser.h; sourceTree = "<group>"; };
+		AF60A8F1172677A900A4DB96 /* LEOWebDAVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVParser.m; sourceTree = "<group>"; };
+		AF60A8F2172677A900A4DB96 /* LEOWebDAVPropertyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVPropertyRequest.h; sourceTree = "<group>"; };
+		AF60A8F3172677A900A4DB96 /* LEOWebDAVPropertyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVPropertyRequest.m; sourceTree = "<group>"; };
+		AF60A8F4172677A900A4DB96 /* LEOWebDAVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVRequest.h; sourceTree = "<group>"; };
+		AF60A8F5172677A900A4DB96 /* LEOWebDAVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVRequest.m; sourceTree = "<group>"; };
+		AF60A8F6172677A900A4DB96 /* LEOWebDAVUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVUploadRequest.h; sourceTree = "<group>"; };
+		AF60A8F7172677A900A4DB96 /* LEOWebDAVUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVUploadRequest.m; sourceTree = "<group>"; };
+		AF60A8F8172677A900A4DB96 /* LEOWebDAVURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVURL.h; sourceTree = "<group>"; };
+		AF60A8F9172677A900A4DB96 /* LEOWebDAVURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVURL.m; sourceTree = "<group>"; };
+		AF60A8FA172677A900A4DB96 /* LEOWebDAVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOWebDAVUtility.h; sourceTree = "<group>"; };
+		AF60A8FB172677A900A4DB96 /* LEOWebDAVUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOWebDAVUtility.m; sourceTree = "<group>"; };
+		AF7244DF16390C930020086C /* LEOServerListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOServerListCell.h; path = classes/View/LEOServerListCell.h; sourceTree = "<group>"; };
+		AF7244E016390C930020086C /* LEOServerListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOServerListCell.m; path = classes/View/LEOServerListCell.m; sourceTree = "<group>"; };
+		AF7244E7163922BF0020086C /* LEOServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOServerInfo.h; path = classes/Model/LEOServerInfo.h; sourceTree = "<group>"; };
+		AF7244E8163922BF0020086C /* LEOServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOServerInfo.m; path = classes/Model/LEOServerInfo.m; sourceTree = "<group>"; };
+		AF7244EA16392F970020086C /* LEOUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUtility.h; path = classes/Utilities/LEOUtility.h; sourceTree = "<group>"; };
+		AF7244EB16392F970020086C /* LEOUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUtility.m; path = classes/Utilities/LEOUtility.m; sourceTree = "<group>"; };
+		AF7244F4163947D20020086C /* LEOUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUploadViewController.h; path = classes/Controller/LEOUploadViewController.h; sourceTree = "<group>"; };
+		AF7244F5163947D20020086C /* LEOUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUploadViewController.m; path = classes/Controller/LEOUploadViewController.m; sourceTree = "<group>"; };
+		AF7244F716394CB30020086C /* LEOMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMusicViewController.h; path = classes/Controller/LEOMusicViewController.h; sourceTree = "<group>"; };
+		AF7244F816394CB30020086C /* LEOMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMusicViewController.m; path = classes/Controller/LEOMusicViewController.m; sourceTree = "<group>"; };
+		AF749D72163E2A3F0006129C /* LEONewServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEONewServerViewController.h; path = classes/Controller/LEONewServerViewController.h; sourceTree = "<group>"; };
+		AF749D73163E2A3F0006129C /* LEONewServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEONewServerViewController.m; path = classes/Controller/LEONewServerViewController.m; sourceTree = "<group>"; };
+		AF749D7E163E80A30006129C /* LEODetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODetailViewController.h; path = classes/Controller/LEODetailViewController.h; sourceTree = "<group>"; };
+		AF749D7F163E80A30006129C /* LEODetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEODetailViewController.m; path = classes/Controller/LEODetailViewController.m; sourceTree = "<group>"; };
+		AF749D81163E838C0006129C /* LEOContentListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOContentListCell.h; path = classes/View/LEOContentListCell.h; sourceTree = "<group>"; };
+		AF749D82163E838C0006129C /* LEOContentListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOContentListCell.m; path = classes/View/LEOContentListCell.m; sourceTree = "<group>"; };
+		AF7900CC165F58160035EBE4 /* LEODetailMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODetailMusicViewController.h; path = classes/Controller/LEODetailMusicViewController.h; sourceTree = "<group>"; };
+		AF7900CD165F58170035EBE4 /* LEODetailMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEODetailMusicViewController.m; path = classes/Controller/LEODetailMusicViewController.m; sourceTree = "<group>"; };
+		AF7E97A0164BBB2800C865AC /* LEOUploadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUploadInfo.h; path = classes/Model/LEOUploadInfo.h; sourceTree = "<group>"; };
+		AF7E97A1164BBB2800C865AC /* LEOUploadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUploadInfo.m; path = classes/Model/LEOUploadInfo.m; sourceTree = "<group>"; };
+		AF80C9A6166C575900E322C8 /* LEOResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOResultView.h; path = classes/View/LEOResultView.h; sourceTree = "<group>"; };
+		AF80C9A7166C575900E322C8 /* LEOResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOResultView.m; path = classes/View/LEOResultView.m; sourceTree = "<group>"; };
+		AF853E4C16436B75004ED6C8 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		AF856AB5164A129000BFDDFF /* LEOUploadListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUploadListCell.h; path = classes/View/LEOUploadListCell.h; sourceTree = "<group>"; };
+		AF856AB6164A129000BFDDFF /* LEOUploadListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUploadListCell.m; path = classes/View/LEOUploadListCell.m; sourceTree = "<group>"; };
+		AF856AB9164A31E700BFDDFF /* LEOUploadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUploadView.h; path = classes/View/LEOUploadView.h; sourceTree = "<group>"; };
+		AF856ABA164A31E700BFDDFF /* LEOUploadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUploadView.m; path = classes/View/LEOUploadView.m; sourceTree = "<group>"; };
+		AF856ABC164A40A100BFDDFF /* LEOUploadToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOUploadToolBar.h; path = classes/View/LEOUploadToolBar.h; sourceTree = "<group>"; };
+		AF856ABD164A40A100BFDDFF /* LEOUploadToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOUploadToolBar.m; path = classes/View/LEOUploadToolBar.m; sourceTree = "<group>"; };
+		AF856ACB164A601000BFDDFF /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		AF856ACC164A601000BFDDFF /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		AF856ACD164A601000BFDDFF /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		AF856ACE164A601000BFDDFF /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		AF856ACF164A601000BFDDFF /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		AF856AD0164A601000BFDDFF /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		AF856AD1164A601000BFDDFF /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		AF856AD2164A601000BFDDFF /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		AF856AD3164A601000BFDDFF /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		AF856AD4164A601000BFDDFF /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		AF856AD5164A601000BFDDFF /* ELCImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCImagePickerController.xib; sourceTree = "<group>"; };
+		AF856AD6164A601000BFDDFF /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		AF856AD7164A601000BFDDFF /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		AF856AE3164A60AE00BFDDFF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AF858237163A880300DD4A1B /* LEOMusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMusicListCell.h; path = classes/View/LEOMusicListCell.h; sourceTree = "<group>"; };
+		AF858238163A880300DD4A1B /* LEOMusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMusicListCell.m; path = classes/View/LEOMusicListCell.m; sourceTree = "<group>"; };
+		AF85823A163A911E00DD4A1B /* LEOEditToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOEditToolBar.h; path = classes/View/LEOEditToolBar.h; sourceTree = "<group>"; };
+		AF85823B163A911E00DD4A1B /* LEOEditToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOEditToolBar.m; path = classes/View/LEOEditToolBar.m; sourceTree = "<group>"; };
+		AF909993165E1723005235AF /* LEOSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOSwitchView.h; path = classes/View/LEOSwitchView.h; sourceTree = "<group>"; };
+		AF909994165E1723005235AF /* LEOSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOSwitchView.m; path = classes/View/LEOSwitchView.m; sourceTree = "<group>"; };
+		AF9165681648C0CE00918E3F /* LEOMusicSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMusicSlider.h; path = classes/View/LEOMusicSlider.h; sourceTree = "<group>"; };
+		AF9165691648C0CE00918E3F /* LEOMusicSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMusicSlider.m; path = classes/View/LEOMusicSlider.m; sourceTree = "<group>"; };
+		AF91656B1648E49D00918E3F /* LEOMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMusicView.h; path = classes/View/LEOMusicView.h; sourceTree = "<group>"; };
+		AF91656C1648E49D00918E3F /* LEOMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMusicView.m; path = classes/View/LEOMusicView.m; sourceTree = "<group>"; };
+		AF93C37B16636C010037A0DC /* LEONetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEONetworkController.h; path = classes/Controller/LEONetworkController.h; sourceTree = "<group>"; };
+		AF93C37C16636C010037A0DC /* LEONetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEONetworkController.m; path = classes/Controller/LEONetworkController.m; sourceTree = "<group>"; };
+		AF952B951652384A00533BD8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = classes/Utilities/MBProgressHUD.h; sourceTree = "<group>"; };
+		AF952B961652384A00533BD8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = classes/Utilities/MBProgressHUD.m; sourceTree = "<group>"; };
+		AFA0B7A0165B557800889383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AFA0B7A2165B55FD00889383 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		AFA0B7A3165B55FD00889383 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AFA3A90F164218F9005EEB18 /* LEOContentTypeConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOContentTypeConvert.h; path = classes/Utilities/LEOContentTypeConvert.h; sourceTree = "<group>"; };
+		AFA3A910164218F9005EEB18 /* LEOContentTypeConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOContentTypeConvert.m; path = classes/Utilities/LEOContentTypeConvert.m; sourceTree = "<group>"; };
+		AFABEA031635498700EDCCF3 /* TeamDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFABEA071635498700EDCCF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFABEA091635498700EDCCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFABEA0B1635498700EDCCF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFABEA0F1635498700EDCCF3 /* TeamDisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamDisk-Info.plist"; sourceTree = "<group>"; };
+		AFABEA111635498700EDCCF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFABEA131635498700EDCCF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFABEA151635498700EDCCF3 /* TeamDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamDisk-Prefix.pch"; sourceTree = "<group>"; };
+		AFABEA161635498700EDCCF3 /* LEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOAppDelegate.h; sourceTree = "<group>"; };
+		AFABEA171635498700EDCCF3 /* LEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOAppDelegate.m; sourceTree = "<group>"; };
+		AFCCFC771650A72500B68939 /* LEOListExtendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOListExtendView.h; path = classes/View/LEOListExtendView.h; sourceTree = "<group>"; };
+		AFCCFC781650A72500B68939 /* LEOListExtendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOListExtendView.m; path = classes/View/LEOListExtendView.m; sourceTree = "<group>"; };
+		AFCCFC971651090000B68939 /* LEORenameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEORenameViewController.h; path = classes/Controller/LEORenameViewController.h; sourceTree = "<group>"; };
+		AFCCFC981651090000B68939 /* LEORenameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEORenameViewController.m; path = classes/Controller/LEORenameViewController.m; sourceTree = "<group>"; };
+		AFCD00AE16709A4F00750BFB /* LEOCameraPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOCameraPickerController.h; path = classes/Controller/LEOCameraPickerController.h; sourceTree = "<group>"; };
+		AFCD00AF16709A4F00750BFB /* LEOCameraPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOCameraPickerController.m; path = classes/Controller/LEOCameraPickerController.m; sourceTree = "<group>"; };
+		AFD3FAAF16549C7000A0BEDD /* LEOThumbnailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOThumbnailItem.h; path = classes/View/LEOThumbnailItem.h; sourceTree = "<group>"; };
+		AFD3FAB016549C7000A0BEDD /* LEOThumbnailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOThumbnailItem.m; path = classes/View/LEOThumbnailItem.m; sourceTree = "<group>"; };
+		AFD9426A16476A3600025AA4 /* LEODetailVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODetailVideoViewController.h; path = classes/Controller/LEODetailVideoViewController.h; sourceTree = "<group>"; };
+		AFD9426B16476A3600025AA4 /* LEODetailVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEODetailVideoViewController.m; path = classes/Controller/LEODetailVideoViewController.m; sourceTree = "<group>"; };
+		AFD9426E16479B8E00025AA4 /* LEOVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOVideoViewController.h; path = classes/Controller/LEOVideoViewController.h; sourceTree = "<group>"; };
+		AFD9426F16479B8E00025AA4 /* LEOVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOVideoViewController.m; path = classes/Controller/LEOVideoViewController.m; sourceTree = "<group>"; };
+		AFD9427116479E4600025AA4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AFE344D116533F900026B089 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = classes/Utilities/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		AFE344D216533F900026B089 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = classes/Utilities/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		AFE344D5165343ED0026B089 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFE3450516537B9C0026B089 /* KTPhotoBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserDataSource.h; sourceTree = "<group>"; };
+		AFE3450616537B9C0026B089 /* KTPhotoBrowserGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserGlobal.h; sourceTree = "<group>"; };
+		AFE3450716537B9C0026B089 /* KTPhotoBrowserGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoBrowserGlobal.m; sourceTree = "<group>"; };
+		AFE3450816537B9C0026B089 /* KTPhotoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoScrollViewController.h; sourceTree = "<group>"; };
+		AFE3450916537B9C0026B089 /* KTPhotoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoScrollViewController.m; sourceTree = "<group>"; };
+		AFE3450A16537B9C0026B089 /* KTPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoView.h; sourceTree = "<group>"; };
+		AFE3450B16537B9C0026B089 /* KTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoView.m; sourceTree = "<group>"; };
+		AFE3451916537F190026B089 /* LEODoubleModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEODoubleModeViewController.h; path = classes/Controller/LEODoubleModeViewController.h; sourceTree = "<group>"; };
+		AFE3451A16537F190026B089 /* LEODoubleModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEODoubleModeViewController.m; path = classes/Controller/LEODoubleModeViewController.m; sourceTree = "<group>"; };
+		AFE3451C165382910026B089 /* LEOImageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOImageDataSource.h; path = classes/Model/LEOImageDataSource.h; sourceTree = "<group>"; };
+		AFE3451D165382910026B089 /* LEOImageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOImageDataSource.m; path = classes/Model/LEOImageDataSource.m; sourceTree = "<group>"; };
+		AFE345221653A5890026B089 /* LEOImageThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOImageThumbnailCell.h; path = classes/View/LEOImageThumbnailCell.h; sourceTree = "<group>"; };
+		AFE345231653A5890026B089 /* LEOImageThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOImageThumbnailCell.m; path = classes/View/LEOImageThumbnailCell.m; sourceTree = "<group>"; };
+		AFE4F6BA164B5B4500E82A8D /* LEOChoosePathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOChoosePathViewController.h; path = classes/Controller/LEOChoosePathViewController.h; sourceTree = "<group>"; };
+		AFE4F6BB164B5B4500E82A8D /* LEOChoosePathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOChoosePathViewController.m; path = classes/Controller/LEOChoosePathViewController.m; sourceTree = "<group>"; };
+		AFE4F6BE164B95B400E82A8D /* LEONewFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEONewFolderViewController.h; path = classes/Controller/LEONewFolderViewController.h; sourceTree = "<group>"; };
+		AFE4F6BF164B95B400E82A8D /* LEONewFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEONewFolderViewController.m; path = classes/Controller/LEONewFolderViewController.m; sourceTree = "<group>"; };
+		AFE8E7731682AEFE00FFC55E /* LEOChooseCopyPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOChooseCopyPathViewController.h; path = classes/Controller/LEOChooseCopyPathViewController.h; sourceTree = "<group>"; };
+		AFE8E7741682AEFE00FFC55E /* LEOChooseCopyPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOChooseCopyPathViewController.m; path = classes/Controller/LEOChooseCopyPathViewController.m; sourceTree = "<group>"; };
+		AFE9BC2F166F2E630098A306 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AFE9BC31166F2E680098A306 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		AFE9BC33166F2E720098A306 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFE9BC35166F2E830098A306 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFE9BC37166F2EA20098A306 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFEAD4C1163643FB00DB48A1 /* LEOServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOServerListViewController.h; path = classes/Controller/LEOServerListViewController.h; sourceTree = "<group>"; };
+		AFEAD4C2163643FB00DB48A1 /* LEOServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOServerListViewController.m; path = classes/Controller/LEOServerListViewController.m; sourceTree = "<group>"; };
+		AFEAD4E716367AF800DB48A1 /* LEOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOSettingsViewController.h; path = classes/Controller/LEOSettingsViewController.h; sourceTree = "<group>"; };
+		AFEAD4E816367AF800DB48A1 /* LEOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOSettingsViewController.m; path = classes/Controller/LEOSettingsViewController.m; sourceTree = "<group>"; };
+		AFEAD4EE163681F800DB48A1 /* LEOTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOTabBarViewController.h; path = classes/Controller/LEOTabBarViewController.h; sourceTree = "<group>"; };
+		AFEAD4EF163681F800DB48A1 /* LEOTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOTabBarViewController.m; path = classes/Controller/LEOTabBarViewController.m; sourceTree = "<group>"; };
+		AFEAD4F91636AA3200DB48A1 /* LEOTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOTabBar.h; path = classes/View/LEOTabBar.h; sourceTree = "<group>"; };
+		AFEAD4FA1636AA3200DB48A1 /* LEOTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOTabBar.m; path = classes/View/LEOTabBar.m; sourceTree = "<group>"; };
+		AFFA98A31675AE1200D9AC5B /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = classes/Utilities/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		AFFA98A41675AE1200D9AC5B /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = classes/Utilities/SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		AFFA98A71675B36400D9AC5B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFABEA001635498700EDCCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA98A81675B36400D9AC5B /* Security.framework in Frameworks */,
+				AFE344D6165343ED0026B089 /* QuartzCore.framework in Frameworks */,
+				AF856AE4164A60AE00BFDDFF /* AssetsLibrary.framework in Frameworks */,
+				AF5A9581164918FA0065CF85 /* AVFoundation.framework in Frameworks */,
+				AF4F51391647D0C0005B81A6 /* QuickLook.framework in Frameworks */,
+				AFD9427216479E4600025AA4 /* MediaPlayer.framework in Frameworks */,
+				AFABEA081635498700EDCCF3 /* UIKit.framework in Frameworks */,
+				AFABEA0A1635498700EDCCF3 /* Foundation.framework in Frameworks */,
+				AFABEA0C1635498700EDCCF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF60A8DE172677A900A4DB96 /* LEOWebDAV */ = {
+			isa = PBXGroup;
+			children = (
+				AF60A8DF172677A900A4DB96 /* LEOWebDAVBaseRequest.h */,
+				AF60A8E0172677A900A4DB96 /* LEOWebDAVBaseRequest.m */,
+				AF60A8E1172677A900A4DB96 /* LEOWebDAVClient.h */,
+				AF60A8E2172677A900A4DB96 /* LEOWebDAVClient.m */,
+				AF60A8E3172677A900A4DB96 /* LEOWebDAVCopyRequest.h */,
+				AF60A8E4172677A900A4DB96 /* LEOWebDAVCopyRequest.m */,
+				AF60A8E5172677A900A4DB96 /* LEOWebDAVDefines.h */,
+				AF60A8E6172677A900A4DB96 /* LEOWebDAVDeleteRequest.h */,
+				AF60A8E7172677A900A4DB96 /* LEOWebDAVDeleteRequest.m */,
+				AF60A8E8172677A900A4DB96 /* LEOWebDAVDownloadRequest.h */,
+				AF60A8E9172677A900A4DB96 /* LEOWebDAVDownloadRequest.m */,
+				AF60A8EA172677A900A4DB96 /* LEOWebDAVItem.h */,
+				AF60A8EB172677A900A4DB96 /* LEOWebDAVItem.m */,
+				AF60A8EC172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.h */,
+				AF60A8ED172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.m */,
+				AF60A8EE172677A900A4DB96 /* LEOWebDAVMoveRequest.h */,
+				AF60A8EF172677A900A4DB96 /* LEOWebDAVMoveRequest.m */,
+				AF60A8F0172677A900A4DB96 /* LEOWebDAVParser.h */,
+				AF60A8F1172677A900A4DB96 /* LEOWebDAVParser.m */,
+				AF60A8F2172677A900A4DB96 /* LEOWebDAVPropertyRequest.h */,
+				AF60A8F3172677A900A4DB96 /* LEOWebDAVPropertyRequest.m */,
+				AF60A8F4172677A900A4DB96 /* LEOWebDAVRequest.h */,
+				AF60A8F5172677A900A4DB96 /* LEOWebDAVRequest.m */,
+				AF60A8F6172677A900A4DB96 /* LEOWebDAVUploadRequest.h */,
+				AF60A8F7172677A900A4DB96 /* LEOWebDAVUploadRequest.m */,
+				AF60A8F8172677A900A4DB96 /* LEOWebDAVURL.h */,
+				AF60A8F9172677A900A4DB96 /* LEOWebDAVURL.m */,
+				AF60A8FA172677A900A4DB96 /* LEOWebDAVUtility.h */,
+				AF60A8FB172677A900A4DB96 /* LEOWebDAVUtility.m */,
+			);
+			name = LEOWebDAV;
+			path = ../../leowebdav/LEOWebDAV;
+			sourceTree = "<group>";
+		};
+		AF856AC7164A600E00BFDDFF /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AF856ACB164A601000BFDDFF /* ELCAsset.h */,
+				AF856ACC164A601000BFDDFF /* ELCAsset.m */,
+				AF856ACD164A601000BFDDFF /* ELCAssetCell.h */,
+				AF856ACE164A601000BFDDFF /* ELCAssetCell.m */,
+				AF856ACF164A601000BFDDFF /* ELCAssetPicker.xib */,
+				AF856AD0164A601000BFDDFF /* ELCAssetTablePicker.h */,
+				AF856AD1164A601000BFDDFF /* ELCAssetTablePicker.m */,
+				AF856AD2164A601000BFDDFF /* ELCAssetTablePicker.xib */,
+				AF856AD3164A601000BFDDFF /* ELCImagePickerController.h */,
+				AF856AD4164A601000BFDDFF /* ELCImagePickerController.m */,
+				AF856AD5164A601000BFDDFF /* ELCImagePickerController.xib */,
+				AF856AD6164A601000BFDDFF /* Overlay.png */,
+				AF856AD7164A601000BFDDFF /* Overlay@2x.png */,
+				AF1254ED168062880014D1F9 /* LEOAlbumPickerController.h */,
+				AF1254EE168062880014D1F9 /* LEOAlbumPickerController.m */,
+				AF1254F116806D180014D1F9 /* LEOAssetTablePicker.h */,
+				AF1254F216806D180014D1F9 /* LEOAssetTablePicker.m */,
+			);
+			name = ELCImagePicker;
+			path = classes/ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		AFABE9F81635498700EDCCF3 = {
+			isa = PBXGroup;
+			children = (
+				AFE9BC37166F2EA20098A306 /* Default-568h@2x.png */,
+				AFE9BC35166F2E830098A306 /* Default@2x.png */,
+				AFE9BC33166F2E720098A306 /* Default.png */,
+				AFE9BC31166F2E680098A306 /* icon@2x.png */,
+				AFE9BC2F166F2E630098A306 /* icon.png */,
+				AFABEA0D1635498700EDCCF3 /* TeamDisk */,
+				AFABEA061635498700EDCCF3 /* Frameworks */,
+				AFABEA041635498700EDCCF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFABEA041635498700EDCCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFABEA031635498700EDCCF3 /* TeamDisk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFABEA061635498700EDCCF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA98A71675B36400D9AC5B /* Security.framework */,
+				AFE344D5165343ED0026B089 /* QuartzCore.framework */,
+				AF856AE3164A60AE00BFDDFF /* AssetsLibrary.framework */,
+				AF5A9580164918FA0065CF85 /* AVFoundation.framework */,
+				AF4F51381647D0C0005B81A6 /* QuickLook.framework */,
+				AFD9427116479E4600025AA4 /* MediaPlayer.framework */,
+				AFABEA071635498700EDCCF3 /* UIKit.framework */,
+				AFABEA091635498700EDCCF3 /* Foundation.framework */,
+				AFABEA0B1635498700EDCCF3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFABEA0D1635498700EDCCF3 /* TeamDisk */ = {
+			isa = PBXGroup;
+			children = (
+				AF60A8DE172677A900A4DB96 /* LEOWebDAV */,
+				AFE3450316537B9B0026B089 /* KTPhotoBrowser */,
+				AF856AC7164A600E00BFDDFF /* ELCImagePicker */,
+				AF853E4C16436B75004ED6C8 /* res */,
+				AFABEA3116354DF400EDCCF3 /* Utilities */,
+				AFABEA3016354DE400EDCCF3 /* View */,
+				AFABEA2F16354DDA00EDCCF3 /* Model */,
+				AFABEA2E16354DCA00EDCCF3 /* Controller */,
+				AFABEA161635498700EDCCF3 /* LEOAppDelegate.h */,
+				AFABEA171635498700EDCCF3 /* LEOAppDelegate.m */,
+				AFABEA0E1635498700EDCCF3 /* Supporting Files */,
+			);
+			path = TeamDisk;
+			sourceTree = "<group>";
+		};
+		AFABEA0E1635498700EDCCF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFABEA0F1635498700EDCCF3 /* TeamDisk-Info.plist */,
+				AFABEA101635498700EDCCF3 /* InfoPlist.strings */,
+				AFABEA131635498700EDCCF3 /* main.m */,
+				AFABEA151635498700EDCCF3 /* TeamDisk-Prefix.pch */,
+				AFA0B7A1165B557800889383 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFABEA2E16354DCA00EDCCF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFEAD4C1163643FB00DB48A1 /* LEOServerListViewController.h */,
+				AFEAD4C2163643FB00DB48A1 /* LEOServerListViewController.m */,
+				AFEAD4E716367AF800DB48A1 /* LEOSettingsViewController.h */,
+				AFEAD4E816367AF800DB48A1 /* LEOSettingsViewController.m */,
+				AFEAD4EE163681F800DB48A1 /* LEOTabBarViewController.h */,
+				AFEAD4EF163681F800DB48A1 /* LEOTabBarViewController.m */,
+				AF7244F4163947D20020086C /* LEOUploadViewController.h */,
+				AF7244F5163947D20020086C /* LEOUploadViewController.m */,
+				AF7244F716394CB30020086C /* LEOMusicViewController.h */,
+				AF7244F816394CB30020086C /* LEOMusicViewController.m */,
+				AF749D72163E2A3F0006129C /* LEONewServerViewController.h */,
+				AF749D73163E2A3F0006129C /* LEONewServerViewController.m */,
+				AF749D7E163E80A30006129C /* LEODetailViewController.h */,
+				AF749D7F163E80A30006129C /* LEODetailViewController.m */,
+				AFD9426A16476A3600025AA4 /* LEODetailVideoViewController.h */,
+				AFD9426B16476A3600025AA4 /* LEODetailVideoViewController.m */,
+				AFD9426E16479B8E00025AA4 /* LEOVideoViewController.h */,
+				AFD9426F16479B8E00025AA4 /* LEOVideoViewController.m */,
+				AF4F51341647C529005B81A6 /* LEODetailDocViewController.h */,
+				AF4F51351647C529005B81A6 /* LEODetailDocViewController.m */,
+				AFE4F6BA164B5B4500E82A8D /* LEOChoosePathViewController.h */,
+				AFE4F6BB164B5B4500E82A8D /* LEOChoosePathViewController.m */,
+				AFE4F6BE164B95B400E82A8D /* LEONewFolderViewController.h */,
+				AFE4F6BF164B95B400E82A8D /* LEONewFolderViewController.m */,
+				AFCCFC971651090000B68939 /* LEORenameViewController.h */,
+				AFCCFC981651090000B68939 /* LEORenameViewController.m */,
+				AFE3451916537F190026B089 /* LEODoubleModeViewController.h */,
+				AFE3451A16537F190026B089 /* LEODoubleModeViewController.m */,
+				AF7900CC165F58160035EBE4 /* LEODetailMusicViewController.h */,
+				AF7900CD165F58170035EBE4 /* LEODetailMusicViewController.m */,
+				AF93C37B16636C010037A0DC /* LEONetworkController.h */,
+				AF93C37C16636C010037A0DC /* LEONetworkController.m */,
+				AFCD00AE16709A4F00750BFB /* LEOCameraPickerController.h */,
+				AFCD00AF16709A4F00750BFB /* LEOCameraPickerController.m */,
+				AFE8E7731682AEFE00FFC55E /* LEOChooseCopyPathViewController.h */,
+				AFE8E7741682AEFE00FFC55E /* LEOChooseCopyPathViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AFABEA2F16354DDA00EDCCF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF7244E7163922BF0020086C /* LEOServerInfo.h */,
+				AF7244E8163922BF0020086C /* LEOServerInfo.m */,
+				AF5A958316491D050065CF85 /* LEOMusicItem.h */,
+				AF5A958416491D050065CF85 /* LEOMusicItem.m */,
+				AF7E97A0164BBB2800C865AC /* LEOUploadInfo.h */,
+				AF7E97A1164BBB2800C865AC /* LEOUploadInfo.m */,
+				AFE3451C165382910026B089 /* LEOImageDataSource.h */,
+				AFE3451D165382910026B089 /* LEOImageDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AFABEA3016354DE400EDCCF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF33D80C166861E300BCFAE2 /* AudioButton.h */,
+				AF33D80D166861E300BCFAE2 /* AudioButton.m */,
+				AFEAD4F91636AA3200DB48A1 /* LEOTabBar.h */,
+				AFEAD4FA1636AA3200DB48A1 /* LEOTabBar.m */,
+				AF7244DF16390C930020086C /* LEOServerListCell.h */,
+				AF7244E016390C930020086C /* LEOServerListCell.m */,
+				AF858237163A880300DD4A1B /* LEOMusicListCell.h */,
+				AF858238163A880300DD4A1B /* LEOMusicListCell.m */,
+				AF85823A163A911E00DD4A1B /* LEOEditToolBar.h */,
+				AF85823B163A911E00DD4A1B /* LEOEditToolBar.m */,
+				AF749D81163E838C0006129C /* LEOContentListCell.h */,
+				AF749D82163E838C0006129C /* LEOContentListCell.m */,
+				AF9165681648C0CE00918E3F /* LEOMusicSlider.h */,
+				AF9165691648C0CE00918E3F /* LEOMusicSlider.m */,
+				AF91656B1648E49D00918E3F /* LEOMusicView.h */,
+				AF91656C1648E49D00918E3F /* LEOMusicView.m */,
+				AF856AB5164A129000BFDDFF /* LEOUploadListCell.h */,
+				AF856AB6164A129000BFDDFF /* LEOUploadListCell.m */,
+				AF856AB9164A31E700BFDDFF /* LEOUploadView.h */,
+				AF856ABA164A31E700BFDDFF /* LEOUploadView.m */,
+				AF856ABC164A40A100BFDDFF /* LEOUploadToolBar.h */,
+				AF856ABD164A40A100BFDDFF /* LEOUploadToolBar.m */,
+				AFCCFC771650A72500B68939 /* LEOListExtendView.h */,
+				AFCCFC781650A72500B68939 /* LEOListExtendView.m */,
+				AFE345221653A5890026B089 /* LEOImageThumbnailCell.h */,
+				AFE345231653A5890026B089 /* LEOImageThumbnailCell.m */,
+				AFD3FAAF16549C7000A0BEDD /* LEOThumbnailItem.h */,
+				AFD3FAB016549C7000A0BEDD /* LEOThumbnailItem.m */,
+				AF909993165E1723005235AF /* LEOSwitchView.h */,
+				AF909994165E1723005235AF /* LEOSwitchView.m */,
+				AF80C9A6166C575900E322C8 /* LEOResultView.h */,
+				AF80C9A7166C575900E322C8 /* LEOResultView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AFABEA3116354DF400EDCCF3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA98A31675AE1200D9AC5B /* SFHFKeychainUtils.h */,
+				AFFA98A41675AE1200D9AC5B /* SFHFKeychainUtils.m */,
+				AFE344D116533F900026B089 /* EGORefreshTableHeaderView.h */,
+				AFE344D216533F900026B089 /* EGORefreshTableHeaderView.m */,
+				AF952B951652384A00533BD8 /* MBProgressHUD.h */,
+				AF952B961652384A00533BD8 /* MBProgressHUD.m */,
+				AF2858EF1637D951006521BF /* LEODefines.h */,
+				AF7244EA16392F970020086C /* LEOUtility.h */,
+				AF7244EB16392F970020086C /* LEOUtility.m */,
+				AFA3A90F164218F9005EEB18 /* LEOContentTypeConvert.h */,
+				AFA3A910164218F9005EEB18 /* LEOContentTypeConvert.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AFE3450316537B9B0026B089 /* KTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3450516537B9C0026B089 /* KTPhotoBrowserDataSource.h */,
+				AFE3450616537B9C0026B089 /* KTPhotoBrowserGlobal.h */,
+				AFE3450716537B9C0026B089 /* KTPhotoBrowserGlobal.m */,
+				AFE3450816537B9C0026B089 /* KTPhotoScrollViewController.h */,
+				AFE3450916537B9C0026B089 /* KTPhotoScrollViewController.m */,
+				AFE3450A16537B9C0026B089 /* KTPhotoView.h */,
+				AFE3450B16537B9C0026B089 /* KTPhotoView.m */,
+			);
+			name = KTPhotoBrowser;
+			path = classes/KTPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFABEA021635498700EDCCF3 /* TeamDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFABEA211635498800EDCCF3 /* Build configuration list for PBXNativeTarget "TeamDisk" */;
+			buildPhases = (
+				AFABE9FF1635498700EDCCF3 /* Sources */,
+				AFABEA001635498700EDCCF3 /* Frameworks */,
+				AFABEA011635498700EDCCF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamDisk;
+			productName = ConnectDisk;
+			productReference = AFABEA031635498700EDCCF3 /* TeamDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFABE9FA1635498700EDCCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LEO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SAE;
+			};
+			buildConfigurationList = AFABE9FD1635498700EDCCF3 /* Build configuration list for PBXProject "TeamDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = AFABE9F81635498700EDCCF3;
+			productRefGroup = AFABEA041635498700EDCCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFABEA021635498700EDCCF3 /* TeamDisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFABEA011635498700EDCCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFABEA121635498700EDCCF3 /* InfoPlist.strings in Resources */,
+				AF853E4D16436B75004ED6C8 /* res in Resources */,
+				AF856ADC164A601000BFDDFF /* ELCAssetPicker.xib in Resources */,
+				AF856ADE164A601000BFDDFF /* ELCAssetTablePicker.xib in Resources */,
+				AF856AE0164A601000BFDDFF /* ELCImagePickerController.xib in Resources */,
+				AF856AE1164A601000BFDDFF /* Overlay.png in Resources */,
+				AF856AE2164A601000BFDDFF /* Overlay@2x.png in Resources */,
+				AFA0B79F165B557800889383 /* Localizable.strings in Resources */,
+				AFE9BC30166F2E630098A306 /* icon.png in Resources */,
+				AFE9BC32166F2E680098A306 /* icon@2x.png in Resources */,
+				AFE9BC34166F2E720098A306 /* Default.png in Resources */,
+				AFE9BC36166F2E830098A306 /* Default@2x.png in Resources */,
+				AFE9BC38166F2EA20098A306 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFABE9FF1635498700EDCCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFABEA141635498700EDCCF3 /* main.m in Sources */,
+				AFABEA181635498700EDCCF3 /* LEOAppDelegate.m in Sources */,
+				AFEAD4C3163643FB00DB48A1 /* LEOServerListViewController.m in Sources */,
+				AFEAD4E916367AF800DB48A1 /* LEOSettingsViewController.m in Sources */,
+				AFEAD4F0163681F800DB48A1 /* LEOTabBarViewController.m in Sources */,
+				AFEAD4FB1636AA3200DB48A1 /* LEOTabBar.m in Sources */,
+				AF7244E116390C930020086C /* LEOServerListCell.m in Sources */,
+				AF7244E9163922BF0020086C /* LEOServerInfo.m in Sources */,
+				AF7244EC16392F970020086C /* LEOUtility.m in Sources */,
+				AF7244F6163947D20020086C /* LEOUploadViewController.m in Sources */,
+				AF7244F916394CB30020086C /* LEOMusicViewController.m in Sources */,
+				AF858239163A880300DD4A1B /* LEOMusicListCell.m in Sources */,
+				AF85823C163A911E00DD4A1B /* LEOEditToolBar.m in Sources */,
+				AF749D74163E2A3F0006129C /* LEONewServerViewController.m in Sources */,
+				AF749D80163E80A30006129C /* LEODetailViewController.m in Sources */,
+				AF749D83163E838C0006129C /* LEOContentListCell.m in Sources */,
+				AFA3A911164218F9005EEB18 /* LEOContentTypeConvert.m in Sources */,
+				AFD9426C16476A3700025AA4 /* LEODetailVideoViewController.m in Sources */,
+				AFD9427016479B8E00025AA4 /* LEOVideoViewController.m in Sources */,
+				AF4F51361647C529005B81A6 /* LEODetailDocViewController.m in Sources */,
+				AF91656A1648C0CE00918E3F /* LEOMusicSlider.m in Sources */,
+				AF91656D1648E49D00918E3F /* LEOMusicView.m in Sources */,
+				AF5A958516491D050065CF85 /* LEOMusicItem.m in Sources */,
+				AF856AB7164A129000BFDDFF /* LEOUploadListCell.m in Sources */,
+				AF856ABB164A31E700BFDDFF /* LEOUploadView.m in Sources */,
+				AF856ABE164A40A100BFDDFF /* LEOUploadToolBar.m in Sources */,
+				AF856ADA164A601000BFDDFF /* ELCAsset.m in Sources */,
+				AF856ADB164A601000BFDDFF /* ELCAssetCell.m in Sources */,
+				AF856ADD164A601000BFDDFF /* ELCAssetTablePicker.m in Sources */,
+				AF856ADF164A601000BFDDFF /* ELCImagePickerController.m in Sources */,
+				AFE4F6BC164B5B4500E82A8D /* LEOChoosePathViewController.m in Sources */,
+				AFE4F6C0164B95B500E82A8D /* LEONewFolderViewController.m in Sources */,
+				AF7E97A2164BBB2800C865AC /* LEOUploadInfo.m in Sources */,
+				AFCCFC791650A72500B68939 /* LEOListExtendView.m in Sources */,
+				AFCCFC991651090100B68939 /* LEORenameViewController.m in Sources */,
+				AF952B971652384A00533BD8 /* MBProgressHUD.m in Sources */,
+				AFE344D316533F900026B089 /* EGORefreshTableHeaderView.m in Sources */,
+				AFE3451316537B9C0026B089 /* KTPhotoBrowserGlobal.m in Sources */,
+				AFE3451416537B9C0026B089 /* KTPhotoScrollViewController.m in Sources */,
+				AFE3451516537B9C0026B089 /* KTPhotoView.m in Sources */,
+				AFE3451B16537F1A0026B089 /* LEODoubleModeViewController.m in Sources */,
+				AFE3451E165382910026B089 /* LEOImageDataSource.m in Sources */,
+				AFE345241653A5890026B089 /* LEOImageThumbnailCell.m in Sources */,
+				AFD3FAB116549C7000A0BEDD /* LEOThumbnailItem.m in Sources */,
+				AF909995165E1724005235AF /* LEOSwitchView.m in Sources */,
+				AF7900CE165F58170035EBE4 /* LEODetailMusicViewController.m in Sources */,
+				AF93C37D16636C010037A0DC /* LEONetworkController.m in Sources */,
+				AF33D80E166861E300BCFAE2 /* AudioButton.m in Sources */,
+				AF80C9A8166C575900E322C8 /* LEOResultView.m in Sources */,
+				AFCD00B016709A4F00750BFB /* LEOCameraPickerController.m in Sources */,
+				AFFA98A51675AE1200D9AC5B /* SFHFKeychainUtils.m in Sources */,
+				AF1254EF168062880014D1F9 /* LEOAlbumPickerController.m in Sources */,
+				AF1254F316806D180014D1F9 /* LEOAssetTablePicker.m in Sources */,
+				AFE8E7751682AEFE00FFC55E /* LEOChooseCopyPathViewController.m in Sources */,
+				AF60A8FC172677A900A4DB96 /* LEOWebDAVBaseRequest.m in Sources */,
+				AF60A8FD172677A900A4DB96 /* LEOWebDAVClient.m in Sources */,
+				AF60A8FE172677A900A4DB96 /* LEOWebDAVCopyRequest.m in Sources */,
+				AF60A8FF172677A900A4DB96 /* LEOWebDAVDeleteRequest.m in Sources */,
+				AF60A900172677A900A4DB96 /* LEOWebDAVDownloadRequest.m in Sources */,
+				AF60A901172677A900A4DB96 /* LEOWebDAVItem.m in Sources */,
+				AF60A902172677A900A4DB96 /* LEOWebDAVMakeCollectionRequest.m in Sources */,
+				AF60A903172677A900A4DB96 /* LEOWebDAVMoveRequest.m in Sources */,
+				AF60A904172677A900A4DB96 /* LEOWebDAVParser.m in Sources */,
+				AF60A905172677A900A4DB96 /* LEOWebDAVPropertyRequest.m in Sources */,
+				AF60A906172677A900A4DB96 /* LEOWebDAVRequest.m in Sources */,
+				AF60A907172677A900A4DB96 /* LEOWebDAVUploadRequest.m in Sources */,
+				AF60A908172677A900A4DB96 /* LEOWebDAVURL.m in Sources */,
+				AF60A909172677A900A4DB96 /* LEOWebDAVUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFA0B7A1165B557800889383 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA0B7A0165B557800889383 /* en */,
+				AFA0B7A3165B55FD00889383 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AFABEA101635498700EDCCF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFABEA111635498700EDCCF3 /* en */,
+				AFA0B7A2165B55FD00889383 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFABEA1F1635498800EDCCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFABEA201635498800EDCCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFABEA221635498800EDCCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeamDisk/TeamDisk-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TeamDisk/TeamDisk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TeamDisk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFABEA231635498800EDCCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeamDisk/TeamDisk-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TeamDisk/TeamDisk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TeamDisk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFABE9FD1635498700EDCCF3 /* Build configuration list for PBXProject "TeamDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFABEA1F1635498800EDCCF3 /* Debug */,
+				AFABEA201635498800EDCCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFABEA211635498800EDCCF3 /* Build configuration list for PBXNativeTarget "TeamDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFABEA221635498800EDCCF3 /* Debug */,
+				AFABEA231635498800EDCCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFABE9FA1635498700EDCCF3 /* Project object */;
+}

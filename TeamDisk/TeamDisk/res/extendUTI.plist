@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>default</key>
+	<string>kUTTypeItem</string>
+	<key>application/pdf</key>
+	<string>kUTTypePDF</string>
+	<key>text/plain</key>
+	<string>kUTTypePlainText</string>
+	<key>image/jpeg</key>
+	<string>kUTTypeJPEG</string>
+	<key>image/png</key>
+	<string>kUTTypePNG</string>
+	<key>application/msword</key>
+	<string>com.microsoft.word.doc</string>
+	<key>application/vnd.openxmlformats-officedocument.wordprocessingml.document</key>
+	<string>com.microsoft.word.doc</string>
+	<key>application/mspowerpoint</key>
+	<string>com.microsoft.powerpoint.​ppt</string>
+	<key>application/vnd.openxmlformats-officedocument.presentationml.presentation</key>
+	<string>com.microsoft.powerpoint.​ppt</string>
+	<key>application/vnd.ms-excel</key>
+	<string>com.microsoft.excel.xls</string>
+	<key>video/mp4</key>
+	<string>kUTTypeMPEG4</string>
+	<key>video/mp4v</key>
+	<string>kUTTypeMPEG4</string>
+	<key>video/mpeg</key>
+	<string>kUTTypeMPEG</string>
+	<key>video/mpg</key>
+	<string>kUTTypeMPEG</string>
+	<key>video/x-mpg</key>
+	<string>kUTTypeMPEG</string>
+	<key>video/x-mpeg</key>
+	<string>kUTTypeMPEG</string>
+	<key>audio/mpeg</key>
+	<string>kUTTypeMP3</string>
+	<key>audio/mpeg3</key>
+	<string>kUTTypeMP3</string>
+	<key>audio/mpg</key>
+	<string>kUTTypeMP3</string>
+	<key>audio/mp3</key>
+	<string>kUTTypeMP3</string>
+	<key>audio/x-mpeg</key>
+	<string>kUTTypeMP3</string>
+	<key>audio/x-mpeg3</key>
+	<string>kUTTypeMP3</string>
+</dict>
+</plist>
