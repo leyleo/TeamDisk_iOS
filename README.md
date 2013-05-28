@@ -32,10 +32,10 @@ TeamDisk iOS Client, is a WebDAV-based APP. Visit the [itunes link](https://itun
 
 ![choose picture](/ScreenShot/choose%20pic.png)
 ![doc detail](/ScreenShot/doc%20detail.png)
-![list](https://github.com/leyleo/TeamDisk_iOS/blob/master/ScreenShot/list.png)
-![music player](https://github.com/leyleo/TeamDisk_iOS/blob/master/ScreenShot/music%20player.png)
-![pic list](https://github.com/leyleo/TeamDisk_iOS/blob/master/ScreenShot/pic%20list.png)
-![upload](https://github.com/leyleo/TeamDisk_iOS/blob/master/ScreenShot/upload.png)
+![list](/ScreenShot/list.png)
+![music player](/ScreenShot/music%20player.png)
+![pic list](/ScreenShot/pic%20list.png)
+![upload](/ScreenShot/upload.png)
 
 # Thanks
 
