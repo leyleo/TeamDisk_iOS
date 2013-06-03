@@ -28,7 +28,9 @@ TeamDisk iOS Client, is a WebDAV-based APP. Visit the [itunes link](https://itun
 
 5. Video playback, using iOS default video player.
 
-# How to Use
+# How to checkout
+
+Notify: the project has the submodule [leowebdav](https://github.com/leyleo/leowebdav), so the codes from zip maybe not enough, you'd better check out the codes as following.
 
 ```
 git clone https://github.com/leyleo/TeamDisk_iOS.git
@@ -38,7 +40,6 @@ cd TeamDisk_iOS
 git submodule init
 
 git submodule update
-
 ```
 
 # ScreenShots
