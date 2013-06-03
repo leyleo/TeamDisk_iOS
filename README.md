@@ -30,7 +30,7 @@ TeamDisk iOS Client, is a WebDAV-based APP. Visit the [itunes link](https://itun
 
 # How to checkout
 
-Notify: the project has the submodule [leowebdav](https://github.com/leyleo/leowebdav), so the codes from zip maybe not enough, you'd better check out the codes as following.
+Notify: the project has the submodule [leowebdav](https://github.com/leyleo/leowebdav), so the codes from zip maybe not enough, you'd better check out the whole project as following.
 
 ```
 git clone https://github.com/leyleo/TeamDisk_iOS.git
