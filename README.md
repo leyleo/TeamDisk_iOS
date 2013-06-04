@@ -47,7 +47,7 @@ git submodule update
 ![choose picture](/ScreenShot/choose%20pic.png)
 ![doc detail](/ScreenShot/doc%20detail.png)
 ![list](/ScreenShot/list.png)
-![music player](/ScreenShot/music%20player.png)
+![music](/ScreenShot/music.png)
 ![pic list](/ScreenShot/pic%20list.png)
 ![upload](/ScreenShot/upload.png)
 
