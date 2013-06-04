@@ -187,10 +187,10 @@
         _passwordText.text=_serverInfo.password? _serverInfo.password:@"";
         _desNameText.text=_serverInfo.description?_serverInfo.description:@"";
     }else{
-        _serverUrlText.text=@"";//kTestURl;
-        _userNameText.text=@"";//kTestUserName;
-        _passwordText.text=@"";//kTestPassword;
-        _desNameText.text=@"";//@"Test";
+        _serverUrlText.text=@"";
+        _userNameText.text=@"";
+        _passwordText.text=@"";
+        _desNameText.text=@"";
     }
     [_serverUrlText becomeFirstResponder];
 }
