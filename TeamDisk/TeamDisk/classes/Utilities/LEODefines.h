@@ -103,9 +103,6 @@ static NSString *const kServerListPlistFileName =   @"/serverList.plist";
 static NSString *const kContentTypesPlistFileName   =   @"/res/contentTypes.plist";
 static NSString *const kExtendUTIPlistFileName  =   @"/res/extendUTI.plist";
 static NSString *const kExtentToMIMEPlistFileName   =   @"/res/extentToMIME.plist";
-static NSString *const kTestURl =   @"http://w.4meapp.com/webdav";
-static NSString *const kTestUserName    =   @"test";
-static NSString *const kTestPassword    =   @"1024768";
 static NSString *const kResourceRootPath    =   @"/res/";
 
 static NSString *const kDefaultFolderImage  =   @"/res/folder.png";
